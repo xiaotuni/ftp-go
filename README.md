@@ -17,15 +17,7 @@
 
 ## 下载
 
-到 [Releases](https://github.com/xiaotuni/ftp-go/releases) 下载最新版，按系统选择：
-
-| 系统 | 资产 | 说明 |
-|---|---|---|
-| Windows | `ftpgo-gui.exe` | 绿色单文件。未签名 exe 首次运行若被 SmartScreen 拦截，选「更多信息 → 仍要运行」。 |
-| macOS | `ftpgo-gui-darwin-amd64.tar.gz` | 解压得到 `ftp.app`，拖入「应用程序」即可；首次打开可能需在「系统设置 → 隐私与安全性」放行。 |
-| Linux | `ftpgo-gui-linux-amd64.tar.gz` | 需 glibc ≥ 2.35（Ubuntu 22.04 / Debian 12 及以上）。运行前先装依赖：`sudo apt install libgtk-3-0 libwebkit2gtk-4.0-37`（Fedora：`sudo dnf install gtk3 webkit2gtk4.0`），解压后 `chmod +x ftpgo-gui && ./ftpgo-gui`。 |
-
-三个平台均支持自动更新：检测到新版本后点「立即更新」，应用会下载、校验、解压并自动替换自身后重启。macOS 替换的是整个 `ftp.app`，需对「应用程序」目录有写权限；若应用装在只读位置导致替换失败，会提示错误，此时可去 Releases 页手动下载更新。
+到 [Releases](https://github.com/xiaotuni/ftp-go/releases) 下载最新版 `ftpgo-gui.exe`。未签名的 exe 首次运行若被 SmartScreen 拦截，选择「更多信息 → 仍要运行」即可。
 
 ## 使用
 
